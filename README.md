@@ -1,13 +1,10 @@
 # 🛠️ Assignment Project - Installation & Running Guide
 
 Task 1 (a and b) Live link : https://charts-n3az.onrender.com/
+Task 2 (Live-Link): https://dashboard-frontend-7dqw.onrender.com
 
-Task 2 (Live-Link): ## Task 2 Live-Link: https://dashboard-frontend-7dqw.onrender.com
-
-## 📁 Folder Structure
 
 Here are the three folders in this project:
-
 1. `Task 1 (A and B)` – Task 1's Both Part A and B are here.
 2. `Task 2 Frontend` – Frontend of Task 2
 3. `Task 2 Backend` – Backend of Task 2 [To run Frontend, Backend should always be running]
