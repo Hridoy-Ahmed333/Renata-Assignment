@@ -11,6 +11,7 @@ import { AiOutlineDollarCircle } from "react-icons/ai";
 import { useDarkMode } from "../../Context/DarkModeContext";
 import "./carousel.css";
 import { fetchData } from "../../APIs/dashboardAPI";
+import { LoadingComponent } from "../LoadingComponent";
 
 const Carousel = () => {
   const { darkMode } = useDarkMode();
@@ -27,15 +28,12 @@ const Carousel = () => {
     loadData();
   }, []);
 
-  if (loading)
-    return (
-      <div>Loading... (It might take a few minutes to start the server)</div>
-    );
-
   const customers = data.length || 0;
   const totalIncome = data.reduce((acc, row) => acc + (row.Income || 0), 0);
   const avgIncome = customers > 0 ? (totalIncome / customers).toFixed(2) : 0;
   const division = new Set(data.map((row) => row.Division)).size;
+
+  if (loading) return <LoadingComponent />;
   return (
     <div className={`widget-container ${darkMode ? "dark" : "light"}`}>
       <div className="widget-container-1">

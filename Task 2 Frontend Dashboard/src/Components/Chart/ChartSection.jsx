@@ -4,6 +4,7 @@ import * as XLSX from "xlsx";
 import LineChartParent from "./LineChartParent";
 import PieChartParent from "./PieChartParent";
 import { fetchData } from "../../APIs/dashboardAPI";
+import { LoadingComponent } from "../LoadingComponent";
 
 function ChartSection() {
   const [data, setData] = useState(null);
@@ -22,7 +23,7 @@ function ChartSection() {
   if (loading)
     return (
       <div>
-        <div>Loading... (It might take a few minutes to start the server)</div>
+        <LoadingComponent />
       </div>
     );
 

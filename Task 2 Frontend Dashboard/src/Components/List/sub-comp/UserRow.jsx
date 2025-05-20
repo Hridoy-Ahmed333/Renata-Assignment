@@ -12,6 +12,7 @@ import {
 import UserInfoSection from "./UserInfoSection";
 import UserActionButtons from "./UserActionButtons";
 import "./row.css";
+import { LoadingComponent } from "../../LoadingComponent.jsx";
 
 function UserRow({ rowData: data, setRe, re }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -64,7 +65,7 @@ function UserRow({ rowData: data, setRe, re }) {
   if (!data)
     return (
       <div>
-        <div>Loading... (It might take a few minutes to start the server)</div>
+        <LoadingComponent />
       </div>
     );
 

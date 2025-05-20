@@ -17,7 +17,7 @@ export default function SidebarNav({ isSidebarOpen }) {
 
   const navItems = [
     { label: "Dashboard", path: "/", icon: <BiBarChartAlt2 /> },
-    { label: "Users", path: "/users", icon: <HiUsers /> },
+    { label: "Customers", path: "/users", icon: <HiUsers /> },
     { label: "Read Me", path: "/read", icon: <AiOutlineBook /> },
     {
       label: role === "Visitor" ? "Login" : "Logout",
