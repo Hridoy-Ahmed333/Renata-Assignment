@@ -1,0 +1,33 @@
+.gauge-chart-top-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+.gauge-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+@media (max-width: 950px) {
+  .gauge-chart-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .gauge-chart-container > :nth-child(1) {
+    order: 2;
+  }
+
+  .gauge-chart-container > :nth-child(2) {
+    order: 1;
+  }
+}

@@ -1,0 +1,74 @@
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  background-color: #333;
+}
+
+.sub-bd {
+  position: relative;
+  min-height: calc(100vh);
+  min-width: 100%;
+  overflow: hidden;
+  background-image: url("../assets/login.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-clip: border-box;
+  min-width: 100vw;
+}
+
+.sub-bd::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(34, 34, 34, 0.8);
+  z-index: 1;
+}
+
+.info-div-pass {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  min-height: 2rem;
+  min-width: 95%;
+  background-color: rgb(189, 182, 182, 0.6);
+  z-index: 5;
+  transform: translate(-50%, 0%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: red;
+  padding: 0.5rem;
+  border-radius: 20px;
+  font-size: 0.7rem;
+}
+
+@media (min-width: 400px) {
+  .info-div-pass {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 500px) {
+  .info-div-pass {
+    min-width: 70%;
+  }
+}
+
+@media (min-width: 750px) {
+  .info-div-pass {
+    min-width: 50%;
+  }
+}
+
+@media (min-width: 1150px) {
+  .info-div-pass {
+    min-width: 30%;
+  }
+}

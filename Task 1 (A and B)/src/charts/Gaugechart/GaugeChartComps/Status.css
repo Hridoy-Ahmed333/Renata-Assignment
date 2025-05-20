@@ -1,0 +1,39 @@
+.status-container-top {
+  display: flex;
+  border-radius: 6px;
+  width: 15rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  /* background-color: red; */
+}
+
+.status-container {
+  font-weight: bold;
+  display: flex;
+  width: 5rem;
+  height: 2rem;
+  background-color: #4187f5;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.status-desc {
+  display: block;
+  max-width: 200px;
+  white-space: normal; /* Allow text to wrap */
+  text-align: left; /* Align text to the left by default */
+  line-height: 1; /* Adjust line height for readability */
+  position: relative;
+
+  text-indent: 0; /* No indent on the first line */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+
+.status-desc::before {
+  content: "";
+  display: block;
+  height: 0;
+}

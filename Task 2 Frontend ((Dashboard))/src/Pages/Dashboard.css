@@ -1,0 +1,37 @@
+.dashboard-title {
+  padding-left: 0.6rem;
+  padding-top: 1rem;
+  max-width: fit-content;
+  font-size: 1.5rem;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  max-width: 50%;
+}
+
+.dash-desc {
+  color: red;
+  max-width: 50%;
+  font-weight: bold;
+  padding-left: 0.6rem;
+}
+
+.dashboard-title.light {
+  color: black;
+}
+
+.dashboard-title.dark {
+  color: white;
+}
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 97%;
+  gap: 1rem;
+}
+
+@media (min-width: 900px) {
+  .dashboard-container {
+    gap: 4rem;
+  }
+}

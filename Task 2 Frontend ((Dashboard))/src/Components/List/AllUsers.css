@@ -1,0 +1,134 @@
+.users-list-cont {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.list-conatainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0.3rem;
+}
+
+.user-list {
+  width: 100%;
+  border: 1px solid rgb(179, 174, 174);
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 30px rgba(24, 12, 12, 0.4);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 4rem;
+  box-sizing: border-box;
+  padding: 0.3rem;
+}
+
+.user-list.dark {
+  background: linear-gradient(135deg, #444444, #2d2c2c);
+  border: 0px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+.user-info-btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+}
+
+.name {
+  font-size: 0.8rem;
+  font-weight: bold;
+  width: 100%;
+}
+
+.division {
+  font-size: 0.5rem;
+  font-weight: 900;
+  width: 100%;
+}
+
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+  margin-top: 1rem;
+}
+
+.pagination-controls button {
+  padding: 2px 4px;
+  border: none;
+  cursor: pointer;
+  background-color: #eee;
+  border-radius: 1px;
+}
+
+.pagination-controls button.active-page {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+@media (min-width: 500px) {
+  .user-list {
+    padding: 1rem;
+  }
+  .list-conatainer {
+    padding: 0.6rem;
+  }
+
+  .name {
+    font-size: 0.9rem;
+  }
+  .division {
+    font-size: 0.6rem;
+  }
+  .user-info {
+    flex: 1;
+  }
+  .pagination-controls {
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 800px) {
+  .list-conatainer {
+    padding: 0.6rem;
+  }
+  .name {
+    font-size: 1rem;
+  }
+  .division {
+    font-size: 0.8rem;
+  }
+
+  .pagination-controls {
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .pagination-controls button {
+    padding: 6px 12px;
+    border-radius: 4px;
+  }
+}
+
+/* @media (min-width: 1000px) {
+  .list-conatainer {
+    padding: 1rem;
+  }
+} */

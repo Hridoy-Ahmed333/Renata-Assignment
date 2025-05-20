@@ -1,0 +1,13 @@
+.bar-chart-top-container {
+  padding: 20px;
+}
+.bar-chart-container {
+  display: flex;
+  height: 500px;
+  width: 100%;
+}
+
+.responsive-bar-container {
+  height: 100%;
+  width: 100%;
+}

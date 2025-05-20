@@ -1,0 +1,30 @@
+.row-label-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 0.1rem;
+}
+
+.row-label {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.row-data {
+  word-wrap: break-word;
+}
+
+.light .row-label {
+  color: #555;
+}
+
+.light .row-data {
+  color: #222;
+}
+
+.dark .row-label {
+  color: #bbb;
+}
+
+.dark .row-data {
+  color: #eee;
+}
