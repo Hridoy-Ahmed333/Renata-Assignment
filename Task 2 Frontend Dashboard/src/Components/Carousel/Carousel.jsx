@@ -29,10 +29,7 @@ const Carousel = () => {
 
   if (loading)
     return (
-      <div>
-        Loading... (The Deployed Platform is slow. It might take a few minutes
-        to start the server)
-      </div>
+      <div>Loading... (It might take a few minutes to start the server)</div>
     );
 
   const customers = data.length || 0;

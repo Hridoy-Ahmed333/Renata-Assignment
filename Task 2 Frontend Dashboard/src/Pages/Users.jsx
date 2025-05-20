@@ -34,8 +34,7 @@ function Users() {
   if (loading) {
     return (
       <div>
-        Loading... (The Deployed Platform is slow. It might take a few minutes
-        to start the server)
+        <div>Loading... (It might take a few minutes to start the server)</div>
       </div>
     );
   }
