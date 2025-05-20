@@ -1,6 +1,4 @@
-import Barchart from "./charts/Barchart/Barchart";
-import GaugeChart from "./charts/Gaugechart/GaugeCharts";
-import "./app.css";
+import "./App.css";
 import Home from "./pages/Home";
 
 function App() {
