@@ -1,5 +1,7 @@
 # 🛠️ Assignment Project - Installation & Running Guide
 
+## Task 1 (a and b) Live link : https://charts-n3az.onrender.com/
+
 ## Task 2 (Live-Link): ## Task 2 Live-Link: https://dashboard-frontend-7dqw.onrender.com
 
 ## 📁 Folder Structure
