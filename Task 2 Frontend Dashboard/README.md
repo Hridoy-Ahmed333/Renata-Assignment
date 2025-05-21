@@ -1,3 +1,7 @@
+## 🧰 Live Links
+1. Task 2 (Live-Link): https://dashboard-frontend-7dqw.onrender.com
+
+
 ### 💻 Step 2: Run Frontend
 1. Go to `cd "Task 2 Frontend"` folder and open it in your code editor.
 2. In the terminal, write `npm install` and press Enter.
