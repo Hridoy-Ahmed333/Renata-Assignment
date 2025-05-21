@@ -5,6 +5,7 @@ import { fetchData } from "../APIs/dashboardAPI";
 import AllUsers from "../Components/List/AllUsers";
 import { useDarkMode } from "../Context/DarkModeContext";
 import { handleSearch, processData } from "../Utills/dataProcessor.js";
+import { LoadingComponent } from "../Components/LoadingComponent.jsx";
 
 function Users() {
   const [originalData, setOriginalData] = useState([]);
@@ -34,7 +35,7 @@ function Users() {
   if (loading) {
     return (
       <div>
-        <div>Loading... (It might take a few minutes to start the server)</div>
+        <LoadingComponent />
       </div>
     );
   }
