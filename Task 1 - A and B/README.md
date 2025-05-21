@@ -1,3 +1,6 @@
+## 🧰 Live Link
+1. Task 1 (a and b) Live link : https://charts-n3az.onrender.com/
+
 # Install
 1. Go to `"Task 1 (A and B)"` folder and open it in your code editor.
 2. Open the terminal, write `npm install` and press Enter. This will download all the required dependencies.
