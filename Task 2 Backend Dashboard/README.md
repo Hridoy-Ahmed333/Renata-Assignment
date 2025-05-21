@@ -7,7 +7,7 @@
 
 > 💡 Keep this terminal window running. Do **not** close it while using the frontend.
 
-## 🔧 Step 1: Run Backend First
+## 🔧 About:
 The backend does not uses database.
 Using the backend you can make permanent changes in the exel fille in local environment.
 You cannot make permanet changes in local file while using live server. Beacaus Render or other free hosting service does not allow use to make the permanent changes.
