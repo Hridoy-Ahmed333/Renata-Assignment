@@ -11,7 +11,7 @@ Here are the three folders in this project:
 3. `Task 2 Backend` – Backend of Task 2 [To run Frontend, Backend should always be running]
 
 ---
-
+## Clone or download The whole repository
 ## 🧰 Install and Run Task 1
 
 1. Go to `cd "Task 1 (A and B)"` folder and open it in your code editor.
