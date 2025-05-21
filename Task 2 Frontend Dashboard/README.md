@@ -9,7 +9,7 @@
 2. Admin and Salesrepresentative can see the user.
 3. Only Admin can make changes or add new user.
 4. You can Registration just like a normal website than login or you can use test data for direcet log in.
-5. Here is the test data: These are testing data (test users)
-Admin:{email:"abc@gmail.com", pass:"abc"}
-Sales Rep:{email:"xyz@gmail.com", pass:"xyz"}
-Viewr:{email:"pqr@gmail.com", pass:"pqr"}
+5. Here is the test data: 
+6. Admin:{email:"abc@gmail.com", pass:"abc"}
+7. Sales Rep:{email:"xyz@gmail.com", pass:"xyz"}
+8. Viewr:{email:"pqr@gmail.com", pass:"pqr"}
