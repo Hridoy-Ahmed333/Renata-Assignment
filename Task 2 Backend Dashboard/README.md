@@ -1,3 +1,6 @@
+## 🧰 Live Links
+1. Task 2 (Live-Link): https://dashboard-frontend-7dqw.onrender.com
+
 ## 🔧 Step 1: Run Backend First
 
 1. Go to `cd "Task 2 Backend"` folder and open it in your code editor.
