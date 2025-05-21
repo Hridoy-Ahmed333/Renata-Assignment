@@ -40,7 +40,7 @@ Here are the three folders in this project:
 2. Go to `cd "Task 2 Frontend"` folder and open it in your code editor.
 3. In the terminal, write `npm install` and press Enter.
 4. After installation, run the frontend by writing `npm run dev` and press Enter.
-5. Open your browser and visit the URL shown in the terminal (usually `http://localhost:5173`).
+5. Open your browser and visit the URL shown in the terminal.
 
 ---
 
